@@ -77,3 +77,101 @@ body {
 .title-text {
     font-size: 1.25rem;
 }
+
+.gst {
+    color: #FAC213;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* About */
+
+.about-div {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-col, .about-img-div {
+    padding: 5%;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.about-col {
+    width: 70%;
+}
+
+.about-header {
+    font-size: 2.5rem;
+}
+
+.about-text {
+    font-size: 1.2rem;
+}
+
+/* Become a Fan  */
+
+.baf-div {
+    background-color: #002E94;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baf-col, .baf-img-div {
+    padding: 5%;
+}
+
+.baf-col {
+    width: 73%;
+}
+
+.baf-img {
+    width: 90%;
+}
+
+.baf-header {
+    font-size: 2.5rem;
+}
+
+.baf-text {
+    font-size: 1.2rem;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #FAC213;
+    color: #FFFFFF;
+}
+
+.cta-div {
+    padding: 5%;
+    text-align: center;
+}
+
+.cta-header {
+    font-size: 2.5rem;
+}
+
+.cta-text {
+    font-size: 1.5rem;
+}
+
+.sign-up-btn {
+    background-color: #1363DF;
+    border-style: none;
+    border-radius: 10%;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1%;
+}
+
+.sign-up-btn:hover {
+    background-color: #47B5FF;
+}
