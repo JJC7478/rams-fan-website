@@ -242,6 +242,7 @@ legend {
     border-width: 4px;
     border-color: #FFFFFF;
     font-size: 2.5rem;
+    padding: 2%;
 }
 
 .first-name-div, .last-name-div, .email-div, .comments-div, .form-end-div {
@@ -296,25 +297,71 @@ legend {
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr 5%;
     grid-template-rows: auto;
-    padding: 3%;
+    padding: 2%;
 }
 
 .photo-row {
     grid-column: 2 / span 3;
     display: flex;
-    padding: 3%;
+    justify-content: center;
 }
 
-.photo-col, .photo-col-2 {
+.photo-col {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    height: 15vw;
+    width: 30vw;
+    padding: 2%;
+    font-weight: 600;
 }
 
 
-.the-boys-img {
-    align-self: center;
+.the-boys-img, .player-img {
     margin: auto;
+    object-fit: contain;
+    height: 15vw;
+    max-width: 80%;
+}
+
+
+
+/* Find Your Favorite Player */
+
+.players-body {
+    background-color: #002E94;
+    color: white;
+}
+
+.players-header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.player-list-div {
+    text-align: center;
     padding: 3%;
-    width: 90%;
+    vertical-align: auto;
+}
+
+.players-links-list {
+    list-style-position: inside;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.player-link-li {
+    text-align: left;
+}
+
+.player-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.player-link:hover {
+    text-decoration: underline;
+    color: #FAC213;
 }
