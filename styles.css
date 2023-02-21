@@ -288,6 +288,11 @@ legend {
 
 /* Photos */
 
+.photos-body {
+    background-color: #002E94;
+    color: #FFFFFF;
+}
+
 .photos-h1 {
     font-size: 3rem;
     text-align: center;
@@ -325,7 +330,9 @@ legend {
     max-width: 80%;
 }
 
-
+.photo-label {
+    font-size: 1.2rem;
+}
 
 /* Find Your Favorite Player */
 
